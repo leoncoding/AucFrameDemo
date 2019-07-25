@@ -1,0 +1,8 @@
+apply {
+    from "${project.rootDir.path}/buildLib.gradle"
+}
+
+dependencies {
+    api project(":feature:feature0:export")
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+}
