@@ -1,3 +1,4 @@
+GLog.d(project.toString()+"->buildApp")
 apply {
     plugin "com.android.application"
     plugin "kotlin-android"
